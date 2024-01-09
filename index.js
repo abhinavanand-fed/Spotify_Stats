@@ -13,7 +13,7 @@ let limit = "20";
 function authorize() {
   const client_id = "41ffb92f405e451a8dcc3e9d25b20ab1";
   const redirect_uri =
-    "https://example.com/callback";
+    "https://spotify-stats-phi.vercel.app/";
   const scopes = "user-top-read playlist-modify-public playlist-modify-private";
 
   // Store the date
