@@ -33,9 +33,7 @@ function authorize() {
   window.location = url;
 }
 
-// Grab the access token
-// with the help of regex
-// But first do an if
+
 function getHashValue(key) {
   if (typeof key !== "string") {
     key = "";
